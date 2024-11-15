@@ -157,7 +157,7 @@ export default function Home() {
         <>
             <Button onClick={() => recommencer()}>Recommencer</Button>
 
-            <span>Nombre tentative : {nbTentative}</span>
+            <div>Nombre tentative : {nbTentative}</div>
             <Grid2 container spacing={2} columns={4}>
                 {listeCarte && listeCarte.map((carte) => {
 
